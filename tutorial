@@ -1,0 +1,69 @@
+To use this cientific calculator this necessary to have python3 installed in your machine. Too required installed
+ numpy and sympy libraries, that can uploaded too by pip....
+ I idea this project is make one cientific calculator that substitutle this cassio, hp, etc with raspberry and monitor tft.
+ In this case, any help of programmers will are good in open project. I triing put grafics in calculator, mainly in parts of integrals and derivate.
+ Too i owe to assume that some virtual keys are missing 
+ Because I made a hexadecimal conversion and it is missing the keys from A to F
+ -------------------------------------
+ Comands:
+ The commands are quite simple:
+First you have the 3 tabs:
+-simple
+Integral
+Derivative
+In simple commands, there are the major functions, including determinant, vector product, sine, cosine and tangent, 
+ln and logarithm calculations. There are also calculations of polynomials and lagrange formula ... 
+In integrals and derivatives, there are only these functions. Because I separated them for reasons of simplicity
+To use the virtual keyboard, first click on the button written "prin" and then you can use the 
+main label. In the options of derivatives and integrals, the button d / t chooses how many times you want to derive,
+if it is derived and if the integral will be single, double or triple, if it is in the guide of integrals ....
+In the integrals tab: the limits are separated by commas, and it is mandatory to place them, otherwise it gives 
+error. You can choose them on the virtual keyboard by clicking "l.x" in the limit x, "l.y" in the limit y and "l.z" in the limit z. The virtual keyboard helps a lot that my intention is
+to put it on a raspberry, as I mentioned earlier
+On the boundary labels. Put the limits separated by commas type: The limits of x: 1,4 and 3.8 z0,1 .. totally arbitrary .. You can put an expression as a limit too
+X = y-4, y + 8 .. The program supports this setting ...
+Now on the main tab, most commands will accept that you open and close parentheses. Like clicking the "yes" button 
+on the sin tab, you then enter a number and date parentheses.
+Without (45) ...
+This expression works for most .. Of exceptions, I remember log that works this way:
+Log (9,3) = 2, in other words. The logarithmando goes first, preceded by a comma, and the logarithm later.
+In determinants, as well as prv, which would be the vector product. The syntax is like this.
+det([1,2,3], [3,4,5], [7,8,9]) = response ... Remembering that these numbers are arbitrary ...
+E prv ([x, y, z], [1,2,3, [5,6,7]) = response
+
+And the interpol command (by pulling the button in
+This would be the lagrange
+The syntax looks like this:
+interpol (3 / 1,1,2,4,3,9) = response
+The number before the "/" means how many terms you want to interpolate. The first number means the x and the second or y
+X | y
+1 | 1
+2 | 4
+3 | 9
+I confess that it has become ugly but what matters is that it works
+
+------------------------
+Comands:
+expand((x**2+3)*(x**3+1))=answer
+interpol (3 / 1,1,2,4,3,9) = response
+det([1,2,3],[3,4,5],[7,8,9])=answer
+prv([x, y, z],[1,2,3,[5,6,7])=answer
+div.p((x**3+x)/(x**2+1))=answer
+bin(90)=answer*in binary*
+bd(1001010)=answer* in decimal*
+hd(90)=answer *in hexadecimal*
+button as=Last reply
+button si=div.p(
+button dl=dell
+button in= interpol(
+button de=det(
+button ex=expand(
+button pv= prv(
+
+
+dl=clear
+cos(30)=answer
+sin(30)=answer
+ln(30)=answer
+
+
