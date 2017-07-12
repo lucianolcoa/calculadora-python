@@ -29,7 +29,7 @@ This expression works for most .. Of exceptions, I remember log that works this 
 Log (9,3) = 2, in other words. The logarithmando goes first, preceded by a comma, and the logarithm later.
 In determinants, as well as prv, which would be the vector product. The syntax is like this.
 det([1,2,3], [3,4,5], [7,8,9]) = response ... Remembering that these numbers are arbitrary ...
-E prv ([x, y, z], [1,2,3, [5,6,7]) = response
+E prv ([x, y, z], [1,2,3], [5,6,7]) = response
 
 And the interpol command (by pulling the button in
 This would be the lagrange
