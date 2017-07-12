@@ -320,6 +320,8 @@ class janela:
         self.labelresposta1.grid(row=6,column=0)
 
     def calcula1(self):
+        self.labelresposta=Label(raiz,text="                                                         ")
+        self.labelresposta.configure(background="grey")
         self.aresposta=1
         self.resposta=self.enter.get()
         b=""
